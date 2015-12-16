@@ -12,7 +12,8 @@ public class App {
     private static final Logger LOG = LoggerFactory.getLogger(App.class);
 
     public String sayHi(String message) {
-        LOG.info( "sayHi -> Hello " + message);
+    	// A change
+        LOG.info( "sayHi : Hello " + message);
         return "Hello " + message;
     }
 
